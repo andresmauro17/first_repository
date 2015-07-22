@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aplicativo</title>
+	<meta name="aplicativo Gthux" content="sistema de monitoreo de temperatura y humedad relativa">
+	<meta name="Keywords" content="Aqui, Palabras, clave">
+	
+	 
+    
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" /> 
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" typ="text/css" href="css/fonts.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"> 
+    <link rel="stylesheet" typ="text/css" href="css/app.css"/>      
+</head>
+<body>
+
+	    <div class="container"id="login">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                 <a class="btn big-login" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">INICIAR SESIÓN</a>
+                 <a class="btn big-register" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">CREAR CUENTA</a></div>
+            <div class="col-sm-4"></div>
+        </div>
+       
+
+         
+         <div class="modal fade login" id="loginModal">
+              <div class="modal-dialog login animated">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">  
+                        <div class="box">
+                             <div class="content">
+                                <div class="social">
+                                    <a class="circle github" href="/auth/github">
+                                        <i class="fa fa-github fa-fw"></i>
+                                    </a>
+                                    <a id="google_login" class="circle google" href="/auth/google_oauth2">
+                                        <i class="fa fa-google-plus fa-fw"></i>
+                                    </a>
+                                    <a id="facebook_login" class="circle facebook" href="/auth/facebook">
+                                        <i class="fa fa-facebook fa-fw"></i>
+                                    </a>
+                                </div>
+                                <div class="division">
+                                    <div class="line l"></div>
+                                      <span>Ó digita</span>
+                                    <div class="line r"></div>
+                                </div>
+                                <div class="error"></div>
+                                <div class="form loginBox">
+                                     <form class="form-signin">
+                                        <input  type="email" id="usuario"   class="form-control"  placeholder="Usuario" required autofocus >
+                                        <input type="password" id="pass" class="form-control" placeholder="contraseña" required>
+                                        <button class="btn btn-lg btn-primary btn-block" id="singin" type="botton">Ingresar</button>
+                                    </form> 
+                                </div>
+                             </div>
+                        </div>
+                        <div class="box">
+                            <div class="content registerBox" style="display:none;">
+<!--                                  <div class="form">
+                                    <form method="post" html="{:multipart=>true}" data-remote="true" action="/register" accept-charset="UTF-8">
+                                    <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                    <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                    <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
+                                    <input class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
+                                    </form>
+                                </div> -->
+                                
+                                <div class="form">
+                                    <input type="text" id="usuario-registrado" class="form-control" placeholder="Usuario">
+                                    <input type="password" id="pass-registrado" class="form-control" placeholder="Password">
+                                    <button class="btn btn-lg btn-primary btn-block" id="btnregistrar" type="botton">Registrarse</button>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="forgot login-footer">
+                            <span>Aun no estas registrado 
+                                 <a href="javascript: showRegisterForm();">Crear una cuenta</a>
+                            ?</span>
+                        </div>
+                        <div class="forgot register-footer" style="display:none">
+                             <span>Tienes una cuenta?</span>
+                             <a href="javascript: showLoginForm();">Ingresa</a>
+                        </div>
+                    </div>        
+                  </div>
+              </div>
+          </div>
+    </div>
+
+
+
+    <div class="container hidden" id="page">
+		<div class="contenedor_app row">
+			<!--
+			//////////////////////////////////////////////////Wrapper///////////////////////////////////////////////////////
+			-->
+			<section class="wrap col-xs-12">
+				 <nav class="barra  navbar navbar-default ">
+					<div class="container-fluid">
+						<h1>
+							<a href="#" class="pull-right" id="bt_menu">
+						      	<span class="glyphicon glyphicon-align-justify">					      		
+						      	</span>
+						    </a>
+							<a href="#" class="pull-left">
+						        <!-- <img alt="Brand" src="imagenes/mdo.png" class="img-responsive pull-left"> -->
+						        <strong>Sistema G-THUX</strong>
+					      	</a>							    
+						 </h1>						     					   
+					</div>					
+			    </nav>
+
+				<div id="content" class="col-xs-12">
+					<!--*************************************************dashboard*************************************************-->
+				    <div id="dashboard" class="container-fluid">
+				    	<div class="row">					    
+							<!-- ::::::::::::::::::::::::::::nevera:::::::::::::::::::::::::::: -->
+						    <div class="nevera col-xs-12 col-sm-6 col-md-4 col-lg-3">
+					    		<div class="panel panel-default">
+								 <header class="panel-heading">							 	
+								 	<strong class="nombre_nevera text-left  center-block">Santiago de cali</strong>
+								 </header>
+								  <div class="panel-body">						  						  
+								   <strong class="nombre_nevera text-center  center-block">Auxiliar_cali_br</strong>
+								   <div class="tiempo row">
+								   		<span class="fecha text-right col-xs-6">2014-10-31</span>
+								   		<span class="hora text-left col-xs-6">10:53:00</span>
+								   </div> 							    					    		
+										<!-- ............... termometro................. -->
+								    	<div class="center-block">							    	 	
+								    		<div class="monitor center-block">
+									    		<div class="termometro">
+										    		<div class="luz">
+										    			<div class="push">
+										    				<div class="push-in">
+										    				  <p class="display">
+											                    <span class="temp_entero">23</span>
+											                    <span class="temp_decimal">.9</span>
+											                    <span class="temp_grados">&deg;</span>
+											                  </p>
+										    				</div>
+										    			</div>
+													</div>
+									    		</div>
+								    		</div>							    												
+								    	</div>			                    
+				                    <!-- ................... info nevera..................... -->
+			                        <div class="energia center-block text-center ">			                        	
+						              <i class="glyphicon glyphicon-ok alert-success"></i> 
+						              <i>Energia</i> 					              	 
+						            </div>						            
+								  </div>
+								</div>
+						   	</div>											
+						 </div>   		   		
+				    </div>
+
+				    <!--**************************************************Reportes*************************************************-->
+				    <div id="reportes" class="container-fluid hidden"> <!-- hidden -->
+				    	
+							<p class="center-block text-left">generar reportes</p>							
+							<form class="form-inline">
+							  <div class="form-group">
+							    <div class="input-group">
+							      <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+							      <input id="date-picker-2" type="text" class="date-picker form-control" placeholder="Fecha Inicial"/>
+							      </div>
+							  </div>
+							  <div class="form-group">
+							    <div class="input-group">
+							      <div class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></div>
+							      <input id="date-picker-2" type="text" class="date-picker form-control" placeholder="fehca Final"/>
+							      </div>
+							  </div>
+							  
+								<div class="btn-group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+										Action <span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#">Nevera</a></li>
+										<li><a href="#">nevera1</a></li>
+										<li><a href="#">nevera2</a></li>
+										<li class="divider"></li>
+										<li><a href="#">nevera humedad</a></li>
+									</ul>
+								</div>
+								<button type="submit" class="btn btn-success btn-lg">graficar</button>
+								<button type="submit" class="btn btn-warning btn-lg">reporte</button>
+							</form>
+							<hr/>
+						 
+				    	<div class="row">
+				    									
+
+			
+
+
+
+							
+						</div>
+						  		   		
+				    </div>
+				    <!--**************************************************Usuarios*************************************************-->
+				    <div id="neveras" class="container-fluid hidden"><!-- hidden -->
+				    	<div class="row">
+						    neveras Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates error itaque corporis fuga, sint esse sed sit ipsam porro rem quidem cupiditate libero voluptate, eum. Suscipit eveniet ea odit, quae animi quas, porro impedit aliquid consequuntur veniam vel fugiat voluptatem culpa obcaecati quos maxime incidunt enim mollitia dolorum, reiciendis totam quibusdam. Vero voluptates praesentium hic ex, placeat enim odit cum culpa ducimus deserunt odio corrupti, molestias minus, illo mollitia neque earum architecto iusto suscipit possimus sapiente nihil ipsum. Provident a consequuntur expedita ipsum obcaecati placeat possimus minima distinctio, velit ex maxime, voluptatum dolorum ut ad in reprehenderit? Eaque, quas, possimus.
+						 </div>   		   		
+				    </div>
+
+				</div>
+
+
+			    
+			</section>
+
+			<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+			<!--/////////////////////////////////////////////Menu acordion///////////////////////////////////////////////////-->
+			<div class="accordian">
+					<ul class="nav nav-sidebar">
+					        <li id="first">
+					          <h3 id="first">
+					          	<span class="glyphicon glyphicon-home"></span> 					          	
+					          	<a href="javascript:fcn_paginacion('dashboard');">Monitor</a>
+					          </h3>			            
+					        </li>
+					       
+					        <li>
+					          <h3><span class="icon-Dashboard"></span>Reportes</h3>
+					          <ul class="nav nav-sidebar">
+					                <li><a href="javascript:fcn_paginacion('reportes');">graficas</a></li>                  
+					          </ul>
+					        </li>
+					        <li>
+					          <h3><span class="icon-Dashboard"></span>Neveras</h3>
+					           <ul class="nav nav-sidebar">
+					           		<li><a href="javascript:fcn_paginacion('neveras');">editar</a></li>  
+					           		<li><a href="#">Agregar</a></li>						                       
+					          </ul>
+					        </li>
+					        <li>
+					          <h3><span class="icon-Dashboard"></span>Usuarios</h3>
+					           <ul class="nav nav-sidebar">
+					              	<li><a href="#">lista</a></li>
+						            <li><a href="#">agregar</a></li>						                    
+					          </ul>
+					        </li>
+					        <li>
+					          <h3><span class="icon-Dashboard"></span>Sedes</h3>
+					           <ul class="nav nav-sidebar">
+					              	<li><a href="#">ver sedes</a></li>
+						            <li><a href="#">agregar sede</a></li>						                       
+					          </ul>
+					        </li>
+					        <li>
+					          <h3><span class="icon-Dashboard"></span>Cuenta</h3>
+					           <ul class="nav nav-sidebar">
+					              	<li><a href="php/login/cerrarsesion.php">cerrar sesion</a></li>		            	                       
+					          </ul>
+					        </li>				        				        
+				     </ul>
+
+			</div>
+			<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+			
+		</div> 
+	</div>
+
+
+		
+		
+
+ 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+ 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+ 	<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/login-registro.js"></script></body>
+    <script src="js/app.js"></script>	
+	<script src="js/menu_app.js"></script> 
+</html>
+
+
+
+    
+    
+    

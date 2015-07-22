@@ -1,0 +1,15 @@
+/* variables */
+h1 {
+  color: orange;
+  background: black;
+}
+/* funcion basica */
+ul {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+}
+/*funciones valor por default*/
+div {
+  width: 300px;
+}
