@@ -1,0 +1,2636 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>query data</title>
+<style type="text/css" <!--
+.normal {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #000000}
+.medium {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; color: #000000; text-decoration: none}
+--></style>
+</head>
+<body>
+<h3>query result</h3><table border=1>
+<tr>
+<td bgcolor=silver class='medium'>SPECIFIC_NAME</td><td bgcolor=silver class='medium'>ROUTINE_CATALOG</td><td bgcolor=silver class='medium'>ROUTINE_SCHEMA</td><td bgcolor=silver class='medium'>ROUTINE_NAME</td><td bgcolor=silver class='medium'>ROUTINE_TYPE</td><td bgcolor=silver class='medium'>DATA_TYPE</td><td bgcolor=silver class='medium'>CHARACTER_MAXIMUM_LENGTH</td><td bgcolor=silver class='medium'>CHARACTER_OCTET_LENGTH</td><td bgcolor=silver class='medium'>NUMERIC_PRECISION</td><td bgcolor=silver class='medium'>NUMERIC_SCALE</td><td bgcolor=silver class='medium'>DATETIME_PRECISION</td><td bgcolor=silver class='medium'>CHARACTER_SET_NAME</td><td bgcolor=silver class='medium'>COLLATION_NAME</td><td bgcolor=silver class='medium'>DTD_IDENTIFIER</td><td bgcolor=silver class='medium'>ROUTINE_BODY</td><td bgcolor=silver class='medium'>ROUTINE_DEFINITION</td><td bgcolor=silver class='medium'>EXTERNAL_NAME</td><td bgcolor=silver class='medium'>EXTERNAL_LANGUAGE</td><td bgcolor=silver class='medium'>PARAMETER_STYLE</td><td bgcolor=silver class='medium'>IS_DETERMINISTIC</td><td bgcolor=silver class='medium'>SQL_DATA_ACCESS</td><td bgcolor=silver class='medium'>SQL_PATH</td><td bgcolor=silver class='medium'>SECURITY_TYPE</td><td bgcolor=silver class='medium'>CREATED</td><td bgcolor=silver class='medium'>LAST_ALTERED</td><td bgcolor=silver class='medium'>SQL_MODE</td><td bgcolor=silver class='medium'>ROUTINE_COMMENT</td><td bgcolor=silver class='medium'>DEFINER</td><td bgcolor=silver class='medium'>CHARACTER_SET_CLIENT</td><td bgcolor=silver class='medium'>COLLATION_CONNECTION</td><td bgcolor=silver class='medium'>DATABASE_COLLATION</td></tr>
+<tr>
+<td class='normal' valign='top'>actualizado</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>actualizado</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	UPDATE  nevera SET  actualizando =  '0' WHERE  idNevera = _idNevera LIMIT 1 ;
+	SET _salida = 'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>actualizando</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>actualizando</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	UPDATE  nevera SET  actualizando=  '1'  WHERE  idNevera =_idNevera LIMIT 1 ;
+	SET _salida = 'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>buscarDatos</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>buscarDatos</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>         SELECT idDatos, nevera_idNevera AS 'idNevera', fecha, hora, temperatura, humedad, energia<br>                 FROM datos WHERE fecha BETWEEN _fechaInicial AND _fechaFinal AND nevera_idNevera = _idNevera<br>                 ORDER BY fecha ASC, hora ASC; <br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>deleteEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>deleteEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+         DELETE FROM empresa WHERE id = _idEmpresa;
+         SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>deleteNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>deleteNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        DELETE FROM nevera WHERE idNevera = _idNevera;<br>        SET result = 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>deleteUsuario</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>deleteUsuario</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>         DELETE FROM usuarios WHERE idUsuarios = _idUsuario;<br>         SET result = 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editContrasena</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>editContrasena</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Modificar usuarios**/
+    UPDATE usuarios SET nombre = nombre_,login = login_, pass = MD5(pass_) WHERE idUsuarios = usuarioID_;
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>editEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Modificar empresa**/
+    UPDATE empresa SET nombre = nombre_ WHERE id = empresaID_;
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editInforme</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>editInforme</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        UPDATE informe SET descripcion = _descripcion WHERE idInforme = _idInforme;<br>        SET result = '1';<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>editNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        UPDATE nevera SET nombreNevera = _nombre, empresa_id = _idEmpresa, serial = _serial, cuidad = _ciudad, nombreTecnico = _tecnico, sensor = _sensor,
+                temMax = _temMax, temMin = _temMin, humeMax = _humeMax, humeMin = _humeMin, activa = _activa, telefonoMarcado = _telefono, telefonoMarcadoB = _telefonoB,
+                telefonoMarcadoC = _telefonoC, telefonoMarcadoD = _telefonoD, modificado = 1 WHERE idNevera = _idNevera;
+        SET result = 1;        
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editUsuarios</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>editUsuarios</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Modificar usuarios**/
+    UPDATE usuarios SET empresa_id = empresaID_, nombre = nombre_,login = login_, pass = MD5(pass_),tipo = tipo_ WHERE idUsuarios = usuarioID_;
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>fichaNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>fichaNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        UPDATE nevera SET modelo = _modelo, capacidad = _capacidad, voltaje = _voltaje, amperaje = _amperaje, refUnidad = _refUnidad,<br>                marcaUnidad = _marcaUnidad, refrigerante = _refrigerante, tipoDeControlador = _tipoControlador, refControlador = _refControlador,<br>                numActivo = _numActivo, tipoNevera = _tipoNevera, compresor = _compresor, potencia = _potencia WHERE idNevera = _idNevera;<br><br>        SET _result = 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getDatosSensor</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>getDatosSensor</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+       
+        DECLARE _idNevera INT;
+        DECLARE _modificado TINYINT(1) DEFAULT 0;
+        DECLARE _fecha DATE;
+        DECLARE _hora TIME;
+        DECLARE _activa INT;
+        DECLARE _tempMax FLOAT  DEFAULT 0;
+        DECLARE _tempMin FLOAT  DEFAULT 0;
+        DECLARE _humeMax FLOAT  DEFAULT 0;
+        DECLARE _humeMin FLOAT  DEFAULT 0;
+        DECLARE _ciudad VARCHAR(20);
+        DECLARE _nombre VARCHAR(20);
+        DECLARE _telA VARCHAR(10);
+        DECLARE _telB VARCHAR(10);
+        DECLARE _telC VARCHAR(10);
+        DECLARE _telD VARCHAR(10);
+        DECLARE nomTabla VARCHAR(25);
+        DECLARE numeroNeveras INT;
+	
+        SET nomTabla = concat('tablaDatosSensor',cast((rand()*10000) as unsigned));
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('CREATE TABLE IF NOT EXISTS ', nomTabla,' (idNevera INT DEFAULT 0,modificado TINYINT(1) DEFAULT 0, fecha DATE ,
+                          hora TIME DEFAULT '00:00:00',activa INT DEFAULT 0, tempMax FLOAT DEFAULT 0.0, tempMin FLOAT DEFAULT 0.0 , humMax FLOAT DEFAULT 0.0, humMin FLOAT DEFAULT 0.0 ,ciudad VARCHAR(20),nombre VARCHAR(20),telA VARCHAR(10),telB VARCHAR(10),telC VARCHAR(10),telD VARCHAR(10));');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SELECT DISTINCT COUNT(idNevera) INTO numeroNeveras FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+	
+        IF numeroNeveras = 1 THEN
+                SELECT idNevera, modificado, activa INTO _idNevera, _modificado, _activa  FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+		
+		SELECT fecha, hora INTO _fecha, _hora  FROM datos WHERE  nevera_idNevera = _idNevera  ORDER BY fecha DESC, hora DESC Limit 1;
+		IF _modificado = 1 THEN
+			SELECT temMax ,temMin, activa, humeMax, humeMin, telefonoMarcado,telefonoMarcadoB,telefonoMarcadoC,telefonoMarcadoD, nombreNevera, cuidad INTO _tempMax , _tempMin , _activa, _humeMax, _humeMin, _telA, _telB, _telC, _telD,_nombre, _ciudad FROM nevera where idNevera = _idNevera LIMIT 1;
+		
+		END IF;
+	ELSEIF numeroNeveras = 0 THEN
+		SET _idNevera = 0;
+	ELSEIF  numeroNeveras &gt; 1 THEN
+		
+		SET _idNevera = -1;
+        END IF;
+        SET @s = CONCAT('INSERT INTO ',nomTabla,' values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);');
+        PREPARE stmt FROM @s;
+	
+        SET @idNevera = _idNevera;
+        SET @modificado = _modificado;
+        SET @fecha = _fecha;
+        SET @hora = _hora;
+        SET @activa = _activa;
+        SET @tempMax = _tempMax;
+        SET @tempMin = _tempMin;
+        SET @humMax = _humeMax;
+        SET @humMin = _humeMin;
+        SET @telA = _telA;
+        SET @telB = _telB; 
+        SET @telC = _telC;
+        SET @telD = _telD; 
+        SET @nombre = _nombre;
+        SET @ciudad = _ciudad; 
+        EXECUTE stmt USING @idNevera, @modificado, @fecha, @hora, @activa, @tempMax, @tempMin, @humMax , @humMin, @ciudad, @nombre, @telA, @telB, @telC, @telD;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('SELECT * FROM ',nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getEmpresas</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>getEmpresas</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        SELECT * FROM empresa;  <br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getInforme</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>getInforme</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        SELECT * FROM informe WHERE idInforme = _idInforme;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getTiposUsuario</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>getTiposUsuario</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        SELECT * FROM tipoUsuario WHERE idTipoUsuario != 1;  <br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getUltimoDato</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>getUltimoDato</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        DECLARE _idDatos  INT;<br>        DECLARE _hora TIME;<br>        DECLARE _fecha DATE;<br>        DECLARE _humedad FLOAT;<br>        DECLARE _temperatura FLOAT;<br>        DECLARE _energia TINYINT(1);<br>        DECLARE _actualizando INT;<br><br>        SELECT n.actualizando into _actualizando from nevera n where n.idNevera = _nevera_idNevera limit 1;<br>        IF _actualizando = 1 THEN<br>                SELECT * FROM datosTemp WHERE nevera_idNevera = _nevera_idNevera ORDER BY idDatos DESC limit 1;<br>        ELSE<br>                SELECT * FROM datos WHERE nevera_idNevera = _nevera_idNevera ORDER BY idDatos DESC limit 1;<br>        END IF;<br><br><br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getUltimosDatos</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>getUltimosDatos</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br><br>            DECLARE _idNevera VARCHAR(50);<br>            DECLARE _fecha DATE;<br>            DECLARE _hora TIME;<br>            DECLARE _energia INT(1);<br>            DECLARE _temperatura DOUBLE;<br>            DECLARE _humedad DOUBLE;<br>            DECLARE _ciudad VARCHAR(20);<br>            DECLARE _empresa VARCHAR(20);<br>            DECLARE _nombre VARCHAR(20);<br>            DECLARE _tempMax DOUBLE;<br>            DECLARE _tempMin DOUBLE;<br>            DECLARE _actualizando int(1);<br><br>            DECLARE d INT(1) DEFAULT 0;<br>            DECLARE nomTabla VARCHAR(30);<br><br>            DECLARE neveras CURSOR FOR SELECT n.idNevera, n.cuidad,n.nombreNevera,n.temMax, n.temMin, e.nombre, n.actualizando FROM nevera n INNER JOIN empresa e ON e.id = n.empresa_id ORDER BY cuidad ASC,empresa_id DESC,nombreNevera DESC;<br><br>            DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET d=1;<br>            DECLARE CONTINUE HANDLER FOR SQLSTATE '23000' SET d=1;<br><br>            OPEN neveras;<br><br>            SET nomTabla = CONCAT('tablaUltimosDatos',cast((rand()*10000) as unsigned));<br><br>            SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');<br><br><br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>            SET @s = CONCAT('CREATE TABLE IF NOT EXISTS ', nomTabla,' (idNevera int(10), fecha DATE default NULL, hora time default '00:00:00',energia INT(1) ,<br>                            temperatura double default NULL, humedad double default NULL, cuidad VARCHAR(20), empresa VARCHAR(20), nombre VARCHAR(20),  tempMax double default '0',tempMin double default '0' );');<br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>            SET @s = CONCAT('insert into ',nomTabla,' values(?,?,?,?,?,?,?,?,?,?,?);');<br>            PREPARE stmt FROM @s;<br><br>            ciclo1: LOOP<br>                FETCH neveras INTO _idNevera,_ciudad,_nombre,_tempMax,_tempMin,_empresa, _actualizando;<br><br>                IF d=1 THEN<br>                        LEAVE ciclo1;<br>                END IF;<br>                IF NOT d=1 THEN<br>                        SET @idNevera =_idNevera;<br>                        SET @ciudad = _ciudad;<br>                        SET @nombre = _nombre;<br>                        SET @tempMax = _tempMax;<br>                        SET @tempMin = _tempMin;<br>                        SET @empresa = _empresa;<br><br>                        IF _actualizando = 1 THEN<br><br>                                SELECT d.fecha,d.hora,d.temperatura,d.humedad,d.energia  INTO _fecha,_hora,_temperatura, _humedad, _energia FROM datosTemp d WHERE nevera_idNevera = _idNevera ORDER BY fecha DESC, hora DESC LIMIT 1;<br><br><br>                        ELSE<br>                                SELECT d.fecha,d.hora,d.temperatura,d.humedad,d.energia  INTO _fecha,_hora,_temperatura, _humedad, _energia FROM datos d WHERE nevera_idNevera = _idNevera ORDER BY fecha DESC, hora DESC LIMIT 1;<br><br>                        END IF;<br><br>                        SET @fecha = _fecha;<br>                        SET @hora = _hora;<br>                        SET @temperatura = _temperatura;<br>                        SET @humedad = _humedad;<br>                        SET @energia = _energia;<br><br>                        EXECUTE stmt USING @idNevera,@fecha,@hora,@energia,@temperatura,@humedad,@ciudad,@empresa,@nombre,@tempMax,@tempMin;<br><br>                END IF;<br>            END LOOP;<br><br>            DEALLOCATE PREPARE stmt;<br>            CLOSE neveras;<br><br>            SET @s = CONCAT('SELECT * FROM ',nomTabla,' ORDER BY cuidad ASC,empresa DESC,nombre DESC;');<br><br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>            SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');<br><br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertDatos</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>insertDatos</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	
+	INSERT INTO datos (nevera_idNevera ,hora , fecha, temperatura, humedad, energia) VALUES ( _idNevera , _hora, _fecha , _temp,  _hume , _energia );
+	SET _salida =  'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertDatosTemporal</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>insertDatosTemporal</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	
+	INSERT INTO datosTemp (nevera_idNevera ,hora , fecha, temperatura, humedad, energia) VALUES ( _idNevera , _hora, _fecha , _temp,  _hume , _energia );
+	SET _salida =  'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>insertEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Insertar empresas**/
+    INSERT INTO empresa(nombre) VALUES(nombre_);
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertInforme</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>insertInforme</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        INSERT INTO informe VALUES(_idInforme,_fechaInicio,_fechaFin,_horaInicio,_horaFin,_tempMax,_tempMin,_descripcion);<br>        SET result = '1';<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>insertNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        DECLARE _idNevera INT(10);
+        INSERT INTO nevera (idNevera,nombreNevera,empresa_id,serial,cuidad,nombreTecnico,sensor,temMax,temMin,humeMax,humeMin,activa,telefonoMarcado, telefonoMarcadoB, telefonoMarcadoC, telefonoMarcadoD) VALUES(0,_nombre,_idEmpresa,_serial,_ciudad,_tecnico,_sensor,_temMax,_temMin, _humeMax, _humeMin, _activa, _telefono, _telefonoB, _telefonoC, _telefonoD);
+        SELECT MAX(idNevera) INTO _idNevera FROM nevera;
+        INSERT INTO datos (idDatos,nevera_idNevera,hora,fecha,temperatura,humedad,energia) VALUES (0,_idNevera,'00:00','2012-01-01',0,0,1);
+        SET _result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertUsuarios</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>insertUsuarios</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Insertar usuarios**/
+    INSERT INTO usuarios(empresa_id, nombre, login, pass, tipo) VALUES(empresaID_,nombre_,login_,MD5(pass_),tipo_);
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>limpiarModificado</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>limpiarModificado</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	DECLARE _idNevera INT;
+	DECLARE numeroNeveras INT;
+	
+	SELECT DISTINCT COUNT(idNevera) INTO numeroNeveras FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+	
+        IF numeroNeveras = 1 THEN
+                SELECT idNevera INTO _idNevera FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+		UPDATE  nevera SET  modificado =  '0'  WHERE idNevera =_idNevera LIMIT 1 ; 
+		SET _salida = 'ok';
+	ELSE
+		SET _salida = 'error';
+	END IF;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>listarUsuarios</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>listarUsuarios</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    SELECT idUsuarios, empresa_id, nombre, login, tipo FROM usuarios;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasActivas</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>neverasActivas</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            SERIAL, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo,voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera WHERE activa &gt; 0;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasActivasEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>neverasActivasEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+         SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            SERIAL, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo,voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera WHERE activa &gt; 0 AND empresa_id = _idEmpresa;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>neverasEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            serial, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo, voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera WHERE empresa_id = _idEmpresa;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasRegistradas</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>neverasRegistradas</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN  
+    SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            serial, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo, voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>reporte</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>reporte</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        DECLARE nomTabla VARCHAR(30);
+        DECLARE d INT(1) DEFAULT 0;
+        DECLARE _temperatura VARCHAR(15);
+        DECLARE _humedad VARCHAR(15);
+        DECLARE _energia VARCHAR(15);
+        DECLARE _fecha VARCHAR(15);
+        DECLARE _hora VARCHAR(15);
+        DECLARE datos CURSOR FOR SELECT temperatura, humedad, energia, hora, fecha from datos where nevera_idNevera = _neveraID AND fecha &gt;= _desde AND fecha &lt;= _hasta ORDER BY idDatos ASC;
+        DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET d=1;
+        DECLARE CONTINUE HANDLER FOR SQLSTATE '23000' SET d=1;
+        SET _nombreArchivo = CONCAT('Reporte',CURDATE(),cast((rand()*10000) as unsigned),'.csv');
+        SET nomTabla = CONCAT('tablaReportes',cast((rand()*10000) as unsigned));
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('CREATE TABLE IF NOT EXISTS ', nomTabla,' (temperatura VARCHAR(15), humedad VARCHAR(15), energia VARCHAR(15), fecha VARCHAR(15), hora VARCHAR(15));');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('INSERT INTO ',nomTabla,' values(?,?,?,?,?);');
+        PREPARE stmt FROM @s;
+        SET @temp = 'Instrumentacion';
+        SET @hum ='OnLine';
+        SET @ener ='Fecha:';
+        SET @fecha = CURDATE();
+        SET @hora ='';
+        EXECUTE stmt USING @temp,@hum,@ener,@fecha,@hora;
+        SET @temp = 'Temperatura';
+        SET @hum ='Humedad';
+        SET @ener ='Energia:';
+        SET @fecha = 'Fecha';
+        SET @hora ='Hora';
+        EXECUTE stmt USING @temp,@hum,@ener,@fecha,@hora;
+        OPEN datos;
+        ciclo1: LOOP
+                FETCH datos INTO _temperatura,_humedad,_energia,_fecha,_hora;
+                IF d=1 THEN
+                        LEAVE ciclo1;
+                END IF;
+                IF NOT d=1 THEN
+                        SET @temp = _temperatura;
+                        SET @hum =_humedad;
+                        SET @ener =_energia;
+                        SET @fecha = _fecha;
+                        SET @hora =_hora;
+                        EXECUTE stmt USING @temp,@hum,@ener,@hora,@fecha;
+                END IF;
+            END LOOP;
+        DEALLOCATE PREPARE stmt;
+        CLOSE datos;
+        SET @s = CONCAT('SELECT * INTO OUTFILE '/var/www/html/',_nombreArchivo,'' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '' LINES TERMINATED BY '\n' FROM ',nomTabla,' ;');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>ultimoDato</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>ultimoDato</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>    SELECT idDatos, nevera_idNevera AS 'idNevera', hora, fecha, temperatura, humedad, energia<br>        FROM datos WHERE nevera_idNevera = _idNevera ORDER BY fecha DESC, hora DESC LIMIT 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>validarLogin</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>amarey</td>
+<td class='normal' valign='top'>validarLogin</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN    SELECT idUsuarios, empresa_id, nombre, login, tipo FROM usuarios WHERE login = _login AND pass = MD5(_password) LIMIT 1;    
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>2014-12-22 10:39:01</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>actualizado</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>actualizado</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	UPDATE  nevera SET  actualizando =  '0' WHERE  idNevera = _idNevera LIMIT 1 ;
+	SET _salida = 'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>actualizando</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>actualizando</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	UPDATE  nevera SET  actualizando=  '1'  WHERE  idNevera =_idNevera LIMIT 1 ;
+	SET _salida = 'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>buscarDatos</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>buscarDatos</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>         SELECT idDatos, nevera_idNevera AS 'idNevera', fecha, hora, temperatura, humedad, energia<br>                 FROM datos WHERE fecha BETWEEN _fechaInicial AND _fechaFinal AND nevera_idNevera = _idNevera<br>                 ORDER BY fecha ASC, hora ASC; <br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>deleteEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>deleteEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+         DELETE FROM empresa WHERE id = _idEmpresa;
+         SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>deleteNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>deleteNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        DELETE FROM nevera WHERE idNevera = _idNevera;<br>        SET result = 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>deleteUsuario</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>deleteUsuario</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>         DELETE FROM usuarios WHERE idUsuarios = _idUsuario;<br>         SET result = 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editContrasena</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>editContrasena</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Modificar usuarios**/
+    UPDATE usuarios SET nombre = nombre_,login = login_, pass = MD5(pass_) WHERE idUsuarios = usuarioID_;
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>editEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Modificar empresa**/
+    UPDATE empresa SET nombre = nombre_ WHERE id = empresaID_;
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editInforme</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>editInforme</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        UPDATE informe SET descripcion = _descripcion WHERE idInforme = _idInforme;<br>        SET result = '1';<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>editNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        UPDATE nevera SET nombreNevera = _nombre, empresa_id = _idEmpresa, serial = _serial, cuidad = _ciudad, nombreTecnico = _tecnico, sensor = _sensor,
+                temMax = _temMax, temMin = _temMin, humeMax = _humeMax, humeMin = _humeMin, activa = _activa, telefonoMarcado = _telefono, telefonoMarcadoB = _telefonoB,
+                telefonoMarcadoC = _telefonoC, telefonoMarcadoD = _telefonoD, modificado = 1 WHERE idNevera = _idNevera;
+        SET result = 1;        
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>editUsuarios</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>editUsuarios</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Modificar usuarios**/
+    UPDATE usuarios SET empresa_id = empresaID_, nombre = nombre_,login = login_, pass = MD5(pass_),tipo = tipo_ WHERE idUsuarios = usuarioID_;
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>fichaNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>fichaNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        UPDATE nevera SET modelo = _modelo, capacidad = _capacidad, voltaje = _voltaje, amperaje = _amperaje, refUnidad = _refUnidad,<br>                marcaUnidad = _marcaUnidad, refrigerante = _refrigerante, tipoDeControlador = _tipoControlador, refControlador = _refControlador,<br>                numActivo = _numActivo, tipoNevera = _tipoNevera, compresor = _compresor, potencia = _potencia WHERE idNevera = _idNevera;<br><br>        SET _result = 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getDatosSensor</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>getDatosSensor</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+       
+        DECLARE _idNevera INT;
+        DECLARE _modificado TINYINT(1) DEFAULT 0;
+        DECLARE _fecha DATE;
+        DECLARE _hora TIME;
+        DECLARE _activa INT;
+        DECLARE _tempMax FLOAT  DEFAULT 0;
+        DECLARE _tempMin FLOAT  DEFAULT 0;
+        DECLARE _humeMax FLOAT  DEFAULT 0;
+        DECLARE _humeMin FLOAT  DEFAULT 0;
+        DECLARE _ciudad VARCHAR(20);
+        DECLARE _nombre VARCHAR(20);
+        DECLARE _telA VARCHAR(10);
+        DECLARE _telB VARCHAR(10);
+        DECLARE _telC VARCHAR(10);
+        DECLARE _telD VARCHAR(10);
+        DECLARE nomTabla VARCHAR(25);
+        DECLARE numeroNeveras INT;
+	
+        SET nomTabla = concat('tablaDatosSensor',cast((rand()*10000) as unsigned));
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('CREATE TABLE IF NOT EXISTS ', nomTabla,' (idNevera INT DEFAULT 0,modificado TINYINT(1) DEFAULT 0, fecha DATE ,
+                          hora TIME DEFAULT '00:00:00',activa INT DEFAULT 0, tempMax FLOAT DEFAULT 0.0, tempMin FLOAT DEFAULT 0.0 , humMax FLOAT DEFAULT 0.0, humMin FLOAT DEFAULT 0.0 ,ciudad VARCHAR(20),nombre VARCHAR(20),telA VARCHAR(10),telB VARCHAR(10),telC VARCHAR(10),telD VARCHAR(10));');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SELECT DISTINCT COUNT(idNevera) INTO numeroNeveras FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+	
+        IF numeroNeveras = 1 THEN
+                SELECT idNevera, modificado, activa INTO _idNevera, _modificado, _activa  FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+		
+		SELECT fecha, hora INTO _fecha, _hora  FROM datos WHERE  nevera_idNevera = _idNevera  ORDER BY fecha DESC, hora DESC Limit 1;
+		IF _modificado = 1 THEN
+			SELECT temMax ,temMin, activa, humeMax, humeMin, telefonoMarcado,telefonoMarcadoB,telefonoMarcadoC,telefonoMarcadoD, nombreNevera, cuidad INTO _tempMax , _tempMin , _activa, _humeMax, _humeMin, _telA, _telB, _telC, _telD,_nombre, _ciudad FROM nevera where idNevera = _idNevera LIMIT 1;
+		
+		END IF;
+	ELSEIF numeroNeveras = 0 THEN
+		SET _idNevera = 0;
+	ELSEIF  numeroNeveras &gt; 1 THEN
+		
+		SET _idNevera = -1;
+        END IF;
+        SET @s = CONCAT('INSERT INTO ',nomTabla,' values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);');
+        PREPARE stmt FROM @s;
+	
+        SET @idNevera = _idNevera;
+        SET @modificado = _modificado;
+        SET @fecha = _fecha;
+        SET @hora = _hora;
+        SET @activa = _activa;
+        SET @tempMax = _tempMax;
+        SET @tempMin = _tempMin;
+        SET @humMax = _humeMax;
+        SET @humMin = _humeMin;
+        SET @telA = _telA;
+        SET @telB = _telB; 
+        SET @telC = _telC;
+        SET @telD = _telD; 
+        SET @nombre = _nombre;
+        SET @ciudad = _ciudad; 
+        EXECUTE stmt USING @idNevera, @modificado, @fecha, @hora, @activa, @tempMax, @tempMin, @humMax , @humMin, @ciudad, @nombre, @telA, @telB, @telC, @telD;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('SELECT * FROM ',nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getEmpresas</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>getEmpresas</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        SELECT * FROM empresa;  <br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getInforme</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>getInforme</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        SELECT * FROM informe WHERE idInforme = _idInforme;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getTiposUsuario</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>getTiposUsuario</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        SELECT * FROM tipoUsuario WHERE idTipoUsuario != 1;  <br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getUltimoDato</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>getUltimoDato</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        DECLARE _idDatos  INT;<br>        DECLARE _hora TIME;<br>        DECLARE _fecha DATE;<br>        DECLARE _humedad FLOAT;<br>        DECLARE _temperatura FLOAT;<br>        DECLARE _energia TINYINT(1);<br>        DECLARE _actualizando INT;<br><br>        SELECT n.actualizando into _actualizando from nevera n where n.idNevera = _nevera_idNevera limit 1;<br>        IF _actualizando = 1 THEN<br>                SELECT * FROM datosTemp WHERE nevera_idNevera = _nevera_idNevera ORDER BY idDatos DESC limit 1;<br>        ELSE<br>                SELECT * FROM datos WHERE nevera_idNevera = _nevera_idNevera ORDER BY idDatos DESC limit 1;<br>        END IF;<br><br><br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>getUltimosDatos</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>getUltimosDatos</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br><br>            DECLARE _idNevera VARCHAR(50);<br>            DECLARE _fecha DATE;<br>            DECLARE _hora TIME;<br>            DECLARE _energia INT(1);<br>            DECLARE _temperatura DOUBLE;<br>            DECLARE _humedad DOUBLE;<br>            DECLARE _ciudad VARCHAR(20);<br>            DECLARE _empresa VARCHAR(20);<br>            DECLARE _nombre VARCHAR(20);<br>            DECLARE _tempMax DOUBLE;<br>            DECLARE _tempMin DOUBLE;<br>            DECLARE _actualizando int(1);<br><br>            DECLARE d INT(1) DEFAULT 0;<br>            DECLARE nomTabla VARCHAR(30);<br><br>            DECLARE neveras CURSOR FOR SELECT n.idNevera, n.cuidad,n.nombreNevera,n.temMax, n.temMin, e.nombre, n.actualizando FROM nevera n INNER JOIN empresa e ON e.id = n.empresa_id ORDER BY cuidad ASC,empresa_id DESC,nombreNevera DESC;<br><br>            DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET d=1;<br>            DECLARE CONTINUE HANDLER FOR SQLSTATE '23000' SET d=1;<br><br>            OPEN neveras;<br><br>            SET nomTabla = CONCAT('tablaUltimosDatos',cast((rand()*10000) as unsigned));<br><br>            SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');<br><br><br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>            SET @s = CONCAT('CREATE TABLE IF NOT EXISTS ', nomTabla,' (idNevera int(10), fecha DATE default NULL, hora time default '00:00:00',energia INT(1) ,<br>                            temperatura double default NULL, humedad double default NULL, cuidad VARCHAR(20), empresa VARCHAR(20), nombre VARCHAR(20),  tempMax double default '0',tempMin double default '0' );');<br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>            SET @s = CONCAT('insert into ',nomTabla,' values(?,?,?,?,?,?,?,?,?,?,?);');<br>            PREPARE stmt FROM @s;<br><br>            ciclo1: LOOP<br>                FETCH neveras INTO _idNevera,_ciudad,_nombre,_tempMax,_tempMin,_empresa, _actualizando;<br><br>                IF d=1 THEN<br>                        LEAVE ciclo1;<br>                END IF;<br>                IF NOT d=1 THEN<br>                        SET @idNevera =_idNevera;<br>                        SET @ciudad = _ciudad;<br>                        SET @nombre = _nombre;<br>                        SET @tempMax = _tempMax;<br>                        SET @tempMin = _tempMin;<br>                        SET @empresa = _empresa;<br><br>                        IF _actualizando = 1 THEN<br><br>                                SELECT d.fecha,d.hora,d.temperatura,d.humedad,d.energia  INTO _fecha,_hora,_temperatura, _humedad, _energia FROM datosTemp d WHERE nevera_idNevera = _idNevera ORDER BY fecha DESC, hora DESC LIMIT 1;<br><br><br>                        ELSE<br>                                SELECT d.fecha,d.hora,d.temperatura,d.humedad,d.energia  INTO _fecha,_hora,_temperatura, _humedad, _energia FROM datos d WHERE nevera_idNevera = _idNevera ORDER BY fecha DESC, hora DESC LIMIT 1;<br><br>                        END IF;<br><br>                        SET @fecha = _fecha;<br>                        SET @hora = _hora;<br>                        SET @temperatura = _temperatura;<br>                        SET @humedad = _humedad;<br>                        SET @energia = _energia;<br><br>                        EXECUTE stmt USING @idNevera,@fecha,@hora,@energia,@temperatura,@humedad,@ciudad,@empresa,@nombre,@tempMax,@tempMin;<br><br>                END IF;<br>            END LOOP;<br><br>            DEALLOCATE PREPARE stmt;<br>            CLOSE neveras;<br><br>            SET @s = CONCAT('SELECT * FROM ',nomTabla,' ORDER BY cuidad ASC,empresa DESC,nombre DESC;');<br><br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>            SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');<br><br>            PREPARE stmt FROM @s;<br>            EXECUTE stmt;<br>            DEALLOCATE PREPARE stmt;<br><br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertDatos</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>insertDatos</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	
+	INSERT INTO datos (nevera_idNevera ,hora , fecha, temperatura, humedad, energia) VALUES ( _idNevera , _hora, _fecha , _temp,  _hume , _energia );
+	SET _salida =  'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertDatosTemporal</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>insertDatosTemporal</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	
+	INSERT INTO datosTemp (nevera_idNevera ,hora , fecha, temperatura, humedad, energia) VALUES ( _idNevera , _hora, _fecha , _temp,  _hume , _energia );
+	SET _salida =  'ok';
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>insertEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Insertar empresas**/
+    INSERT INTO empresa(nombre) VALUES(nombre_);
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertInforme</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>insertInforme</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>        INSERT INTO informe VALUES(_idInforme,_fechaInicio,_fechaFin,_horaInicio,_horaFin,_tempMax,_tempMin,_descripcion);<br>        SET result = '1';<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertNevera</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>insertNevera</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        DECLARE _idNevera INT(10);
+        INSERT INTO nevera (idNevera,nombreNevera,empresa_id,serial,cuidad,nombreTecnico,sensor,temMax,temMin,humeMax,humeMin,activa,telefonoMarcado, telefonoMarcadoB, telefonoMarcadoC, telefonoMarcadoD) VALUES(0,_nombre,_idEmpresa,_serial,_ciudad,_tecnico,_sensor,_temMax,_temMin, _humeMax, _humeMin, _activa, _telefono, _telefonoB, _telefonoC, _telefonoD);
+        SELECT MAX(idNevera) INTO _idNevera FROM nevera;
+        INSERT INTO datos (idDatos,nevera_idNevera,hora,fecha,temperatura,humedad,energia) VALUES (0,_idNevera,'00:00','2012-01-01',0,0,1);
+        SET _result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>insertUsuarios</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>insertUsuarios</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    /**Insertar usuarios**/
+    INSERT INTO usuarios(empresa_id, nombre, login, pass, tipo) VALUES(empresaID_,nombre_,login_,MD5(pass_),tipo_);
+    SET result = 1;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>limpiarModificado</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>limpiarModificado</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+	DECLARE _idNevera INT;
+	DECLARE numeroNeveras INT;
+	
+	SELECT DISTINCT COUNT(idNevera) INTO numeroNeveras FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+	
+        IF numeroNeveras = 1 THEN
+                SELECT idNevera INTO _idNevera FROM nevera WHERE sensor =  _sensor ORDER BY idNevera DESC;
+		UPDATE  nevera SET  modificado =  '0'  WHERE idNevera =_idNevera LIMIT 1 ; 
+		SET _salida = 'ok';
+	ELSE
+		SET _salida = 'error';
+	END IF;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>listarUsuarios</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>listarUsuarios</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+    SELECT idUsuarios, empresa_id, nombre, login, tipo FROM usuarios;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasActivas</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>neverasActivas</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            SERIAL, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo,voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera WHERE activa &gt; 0;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasActivasEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>neverasActivasEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+         SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            SERIAL, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo,voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera WHERE activa &gt; 0 AND empresa_id = _idEmpresa;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasEmpresa</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>neverasEmpresa</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            serial, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo, voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera WHERE empresa_id = _idEmpresa;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>neverasRegistradas</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>neverasRegistradas</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN  
+    SELECT idNevera, cuidad AS 'ciudad', nombreNevera,temMax,temMin,humeMax,humeMin,activa,empresa_id AS 'idEmpresa',sensor,
+            serial, nombreTecnico AS 'tecnico', telefonoMarcado AS 'telefono', telefonoMarcadoB AS 'telefonoB',
+            telefonoMarcadoC AS 'telefonoC',telefonoMarcadoD AS 'telefonoD',marca,capacidad,
+            modelo, voltaje, amperaje, refUnidad, marcaUnidad,refrigerante, tipoDeControlador, refControlador, potencia, numActivo,
+            tipoNevera, compresor FROM nevera;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>reporte</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>reporte</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN
+        DECLARE nomTabla VARCHAR(30);
+        DECLARE d INT(1) DEFAULT 0;
+        DECLARE _temperatura VARCHAR(15);
+        DECLARE _humedad VARCHAR(15);
+        DECLARE _energia VARCHAR(15);
+        DECLARE _fecha VARCHAR(15);
+        DECLARE _hora VARCHAR(15);
+        DECLARE datos CURSOR FOR SELECT temperatura, humedad, energia, hora, fecha from datos where nevera_idNevera = _neveraID AND fecha &gt;= _desde AND fecha &lt;= _hasta ORDER BY idDatos ASC;
+        DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET d=1;
+        DECLARE CONTINUE HANDLER FOR SQLSTATE '23000' SET d=1;
+        SET _nombreArchivo = CONCAT('Reporte',CURDATE(),cast((rand()*10000) as unsigned),'.csv');
+        SET nomTabla = CONCAT('tablaReportes',cast((rand()*10000) as unsigned));
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('CREATE TABLE IF NOT EXISTS ', nomTabla,' (temperatura VARCHAR(15), humedad VARCHAR(15), energia VARCHAR(15), fecha VARCHAR(15), hora VARCHAR(15));');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('INSERT INTO ',nomTabla,' values(?,?,?,?,?);');
+        PREPARE stmt FROM @s;
+        SET @temp = 'Instrumentacion';
+        SET @hum ='OnLine';
+        SET @ener ='Fecha:';
+        SET @fecha = CURDATE();
+        SET @hora ='';
+        EXECUTE stmt USING @temp,@hum,@ener,@fecha,@hora;
+        SET @temp = 'Temperatura';
+        SET @hum ='Humedad';
+        SET @ener ='Energia:';
+        SET @fecha = 'Fecha';
+        SET @hora ='Hora';
+        EXECUTE stmt USING @temp,@hum,@ener,@fecha,@hora;
+        OPEN datos;
+        ciclo1: LOOP
+                FETCH datos INTO _temperatura,_humedad,_energia,_fecha,_hora;
+                IF d=1 THEN
+                        LEAVE ciclo1;
+                END IF;
+                IF NOT d=1 THEN
+                        SET @temp = _temperatura;
+                        SET @hum =_humedad;
+                        SET @ener =_energia;
+                        SET @fecha = _fecha;
+                        SET @hora =_hora;
+                        EXECUTE stmt USING @temp,@hum,@ener,@hora,@fecha;
+                END IF;
+            END LOOP;
+        DEALLOCATE PREPARE stmt;
+        CLOSE datos;
+        SET @s = CONCAT('SELECT * INTO OUTFILE '/var/www/html/',_nombreArchivo,'' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '' LINES TERMINATED BY '\n' FROM ',nomTabla,' ;');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+        SET @s = CONCAT('DROP TABLE IF EXISTS ', nomTabla,';');
+        PREPARE stmt FROM @s;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>ultimoDato</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>ultimoDato</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN<br>    SELECT idDatos, nevera_idNevera AS 'idNevera', hora, fecha, temperatura, humedad, energia<br>        FROM datos WHERE nevera_idNevera = _idNevera ORDER BY fecha DESC, hora DESC LIMIT 1;<br>END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+<tr>
+<td class='normal' valign='top'>validarLogin</td>
+<td class='normal' valign='top'>def</td>
+<td class='normal' valign='top'>medex2013</td>
+<td class='normal' valign='top'>validarLogin</td>
+<td class='normal' valign='top'>PROCEDURE</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>BEGIN    SELECT idUsuarios, empresa_id, nombre, login, tipo FROM usuarios WHERE login = _login AND pass = MD5(_password) LIMIT 1;    
+END</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>SQL</td>
+<td class='normal' valign='top'>NO</td>
+<td class='normal' valign='top'>CONTAINS SQL</td>
+<td class='normal' valign='top'>(NULL)</td>
+<td class='normal' valign='top'>DEFINER</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>2014-10-08 09:03:43</td>
+<td class='normal' valign='top'>NO_AUTO_VALUE_ON_ZERO</td>
+<td class='normal' valign='top'>&nbsp;</td>
+<td class='normal' valign='top'>isotronica@%</td>
+<td class='normal' valign='top'>utf8</td>
+<td class='normal' valign='top'>utf8_general_ci</td>
+<td class='normal' valign='top'>latin1_swedish_ci</td>
+</tr>
+</table>
+</body></html>
