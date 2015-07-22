@@ -1,0 +1,227 @@
+@import url('reset.css');
+@import url('fuentes.css');
+@import url('menu.css');
+
+ html, body {
+ 	width: auto;
+ 	height: 100%;
+ 	/*background:#D7D7D7;*/
+ 	font-size: 1.5vw;
+ }
+
+ #contenedor_main{
+ 	width: 96%;
+    height: 96%;
+    padding:2%;
+    background: gray;
+    overflow: scroll; 
+ }
+
+#contenedor {
+    display: inline-block;
+    /*background-color: #0084CC;*/
+    background-color: #505050;
+    width: 100%;
+    min-height: 40rem;
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+
+    -moz-border-radius: 2rem;
+	-webkit-border-radius: 2rem;
+	border-radius: 2rem;
+	-moz-box-shadow: 0px 0px 16px #000000;
+	-webkit-box-shadow: 0px 0px 16px #000000;
+	box-shadow: 0px 0px 16px #000000;
+}
+
+
+#wrap{
+	float:left;
+	display: inline-block;
+	/*background-color: green;*/
+	background: #fff;
+	 width: 100%;
+   /* width: 70%;*/
+    min-height: 40rem;
+	right: 0;
+    /*-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;*/
+
+	-moz-border-radius:2rem 2rem  2rem 2rem  ;
+	-webkit-border-radius:2rem 2rem  2rem 2rem  ;
+	border-radius:2rem 2rem  2rem 2rem  ;
+	overflow: hidden;
+}
+
+#wrap header{
+ 	/*display: none;*/
+ 	display: block;
+	width: 95%;
+	/*min-height: 15%;*/
+	/*fondo gradiente*/
+	/*fondo gradiente*/
+	background: #0084CC; /* Old browsers */
+	padding: 2.5%;
+
+	-moz-border-radius:2rem 2rem 0 0;
+	-webkit-border-radius:2rem 2rem 0 0;
+	border-radius:2rem 2rem 0 0;
+
+	/*-moz-border-radius:27px 0 0 0;
+	-webkit-border-radius:27px 0 0 0;
+	border-radius:27px 0 0 0;*/
+
+ }
+#wrap header div#Bienvenida{
+	width: 100%;
+	height: 100%;
+}
+ #wrap header div#Bienvenida b{
+ 	/*position:relative;*/
+ 	/*display: inline-block;*/
+ 	/*text-align: center;*/
+ 	/*padding: 2%;*/
+	display: inline;
+ 	font-size: 2.5em;
+ 	color: #FFF;
+ 	
+ 	/*margin:auto;*/
+ 	/*margin-left:10%;*/
+
+ }
+
+#wrap header div#Bienvenida a#bt_menu{
+	/*float: right;*/
+	/*padding: 5px;*/
+	color:#fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 3em;
+	float: right;
+/*	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+
+
+#wrap #contenido{
+  	/*display: none;*/ 	
+ 	display: block;
+	width: 100%;
+	/*height: 85%;*/
+	/*background: red;*/
+	background: #fff; 
+
+/*	-moz-border-radius: 0 0 27px 27px;
+	-webkit-border-radius: 0 0 27px 27px;
+	border-radius: 0 0 27px 27px;*/
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+
+	-moz-border-radius: 0 0 0 2rem;
+	-webkit-border-radius: 0 0 0 2rem;
+	border-radius: 0 0 0 2rem;
+	padding: 3%;
+	
+	/*los padding no afectan la medida*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+
+#wrap #contenido #monitor{
+  	/*display: none;*/ 	
+ 	display: inline-block;
+ 	width: 100%;
+ 	/*height: 100%;*/
+ 	/*background: #FF8000;*/
+ 	background: #fff;
+
+ }
+
+aside#menu_aside{
+	/*right: -30%;*/
+	display: none;
+	/*transform:translateX(150px);*/
+	position: relative;
+	min-height: 40rem;
+	float:left;
+	background-color: #505A5C;
+    width: 30%;
+    height: 300px; 
+    -moz-border-radius:0 2rem 2rem 0;
+	-webkit-border-radius:0 2rem 2rem 0;
+	border-radius:0 2rem 2rem 0;
+}
+#accordian{
+	background-color: #505A5C;
+	display: none;
+	width: 20%;
+	float: right;
+
+	-moz-border-radius:2rem 2rem 0 0;
+	-webkit-border-radius:2rem 2rem 0 0;
+	border-radius:2rem 2rem 0 0;
+}
+#accordian ul li#first h3#first{	
+	-moz-border-radius:0 2rem 0 0;
+	-webkit-border-radius:0 2rem 0 0;
+	border-radius:0 2rem 0 0;
+}
+#accordian ul li#first{	
+	margin-bottom: 30%;
+}
+
+/*#contenedor nav{
+	display: inline;
+}*/
+
+
+ aside#menu_aside nav{
+		display: block;
+		margin-top: 30%; 
+
+}
+
+/* aside#menu_aside nav ul li{
+		display: block;
+		color: #fff;
+		font-size: 30px;
+		border-bottom: 2px solid #303637;
+		padding: 5%;
+}
+
+ aside#menu_aside nav ul li:first-child{
+	border-top: 2px solid #303637;
+}
+
+aside#menu_aside nav ul li:hover{
+		background-color: #636C6E;
+}*/
+/* aside#menu_aside nav ul li.tutoriales {
+		display: inline;
+		width: 50%;
+}
+ aside#menu_aside nav ul li.contacto {
+		display: inline;
+		width: 50%;
+		
+
+}*/
+
+/*@media screen and (max-width: 900px){
+	 html, body {
+ 	
+ 	font-size: 10px;
+ }
+
+}
+
+@media screen and (max-width: 550px){
+	 html, body {
+ 	
+ 	font-size: 8px;
+ }
+
+}*/

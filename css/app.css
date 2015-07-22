@@ -1,0 +1,93 @@
+ @import url('fuente_responsive.css');
+ @import url('menu_app.css');
+ @import url('termometro_app.css');
+ @import url('termometro_app.css');
+
+
+
+ html, body { 	
+ 	background: gray;
+ }
+
+ .contenedor_app{
+    background-color: #505050;
+    -moz-border-radius: 2rem;
+	-webkit-border-radius: 2rem;
+	border-radius: 2rem;
+	-moz-box-shadow: 0px 0px 16px #000000;
+	-webkit-box-shadow: 0px 0px 16px #000000;
+	box-shadow: 0px 0px 16px #000000;	
+}
+.login{
+
+	background: #fff;
+	padding: 0;
+    -moz-border-radius:2rem 2rem  2rem 2rem  ;
+	-webkit-border-radius:2rem 2rem  2rem 2rem  ;
+	border-radius:2rem 2rem  2rem 2rem  ;	
+}
+.wrap{
+
+	background: #fff;
+	padding: 0;
+    -moz-border-radius:2rem 2rem  2rem 2rem  ;
+	-webkit-border-radius:2rem 2rem  2rem 2rem  ;
+	border-radius:2rem 2rem  2rem 2rem  ;	
+}
+.wrap_estrecho{
+	-moz-border-radius:2rem 0 0 2rem  ;
+	-webkit-border-radius:2rem 0 0 2rem  ;
+	border-radius:2rem 0 0 2rem  ;   
+}
+.barra img{
+	width: 100%;
+	max-width: 150px;
+	height: auto;
+
+}
+
+.barra{
+ 	
+	background: #0084CC; /* Old browsers */	
+	border: 0;
+	padding: 0 2rem 0 2rem;
+	-moz-border-radius:2rem 2rem 0 0;
+	-webkit-border-radius:2rem 2rem 0 0;
+	border-radius:2rem 2rem 0 0;
+ }
+ .barra_estrecho{
+	-moz-border-radius:2rem 0 0 0;
+	-webkit-border-radius:2rem 0 0 0;
+	border-radius:2rem 0 0 0;
+ }
+.barra h1 a{	
+ 	color: #FFF;
+ 	
+ }
+
+
+
+
+
+
+.contenido_nevera{
+	 
+}
+ul.list-group li {
+	padding-right: 0;
+	padding-left: 0;
+}
+.fecha .hora{
+	
+}
+.tiempo{
+	margin-bottom: 0.5rem;
+}
+.energia{
+	margin-top: 0.5rem;
+}
+
+
+#dashboard, #reportes, #neveras{
+	padding: 0 2rem 2rem 2rem; 
+}

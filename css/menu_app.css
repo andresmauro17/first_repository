@@ -1,0 +1,39 @@
+.accordian{
+	
+	
+	display: none;
+	
+
+	-moz-border-radius:0 2rem 0 0 ;
+	-webkit-border-radius:0 2rem 0 0 ;
+	border-radius:0 2rem 0 0 ;
+}
+.accordian_show{	
+	display: block;
+}
+
+.accordian h3 {
+		color:#fff;	
+       	cursor: pointer;      
+}
+
+.accordian h3:hover{
+	text-shadow:0 0 1px rgba(255,255,255,0.7);
+} 
+
+.accordian ul ul{
+	display: none;
+}
+.accordian ul ul li{
+       border:none;      
+        
+}
+
+.accordian ul ul li a:hover {
+       
+       border-left: 2rem solid #2A6496;
+}
+.accordian li {
+       list-style-type: none;
+       border-bottom: 1px solid rgba(255,255,255,0.3);
+}

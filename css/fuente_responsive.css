@@ -1,0 +1,84 @@
+
+
+
+html,body{
+    line-height: 1.4;
+    font-size: 13px;
+}
+@media screen and (min-width: 500px){
+  html,body{
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 570px){
+  html,body{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 620px){
+  html,body{
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 680px){
+  html,body{
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 720px){
+  html,body{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 800px){
+  html,body{
+    font-size: 19px;
+  }
+}
+@media screen and (min-width: 860px){
+  html,body{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 920px){
+  html,body{
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 1000px){
+  html,body{
+    font-size: 22px;
+  }
+}
+
+
+.barra h1 a{	
+ 	color: #FFF;
+ 	font-size: 2rem;
+ }
+
+.display  span.temp_entero{    
+    font-size: 3vw;    
+   
+}
+
+.display span.temp_decimal{ 
+    font-size: 1.5vw;    
+}
+.display  span.temp_grados{ 
+    font-size: 3vw;
+} 
+
+.fecha, .hora{
+    font-size: 0.6rem;
+}
+.nombre_ciudad,.nombre_nevera, .energia{
+	font-size: 0.8rem;
+}
+
+.accordian ul li h3{
+       font-size: 1rem;         
+}
+.accordian ul li ul li{
+       font-size: 0.8rem;         
+}
