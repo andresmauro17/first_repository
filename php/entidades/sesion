@@ -1,0 +1,37 @@
+<?php 
+
+//esta clase tiene metodos para get y setear los parametros de los usuarios 
+// se hace un mapeo de las propiedades de la tabla sesion
+// 
+  
+
+
+class sesion{
+
+	public $idSesion;                      
+	public $empresa_id;                    
+	public $usuarios_idUsuarios;           
+	public $usuarios_tipo;                 
+	public $hora_ini;                      
+	public $hora_fin;                      
+	public $fecha;                         
+
+	function get_idSesion(){$this->idSesion;}                      
+	function get_empresa_id(){$this->empresa_id;}                    
+	function get_usuarios_idUsuarios(){$this->usuarios_idUsuarios;}           
+	function get_usuarios_tipo(){$this->usuarios_tipo;}                 
+	function get_hora_ini(){$this->hora_ini;}                      
+	function get_hora_fin(){$this->hora_fin;}                      
+	function get_fecha(){$this->fecha;}
+
+	function set_idSesion($idSesion){$this->idSesion=$idSesion;}                      
+	function set_empresa_id($empresa_id){$this->empresa_id=$empresa_id;}                    
+	function set_usuarios_idUsuarios($usuarios_idUsuarios){$this->usuarios_idUsuarios=$usuarios_idUsuarios;      
+	function set_usuarios_tipo($usuarios_tipo){$this->usuarios_tipo=$usuarios_tipo;}                 
+	function set_hora_ini($hora_ini){$this->hora_ini=$hora_ini;}                      
+	function set_hora_fin($hora_fin){$this->hora_fin=$hora_fin;}                      
+	function set_fecha($fecha){$this->fecha=$fecha;}  
+	
+}
+
+?>

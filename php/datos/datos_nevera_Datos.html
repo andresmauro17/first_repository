@@ -1,0 +1,40 @@
+<?php 
+
+	//esta clase tiene el metodo para insertar los usuarios en la base de datos
+	include "../entidades/datos_nevera.php";
+	include "conexion.php";
+
+	class datos_nevera_Datos{
+
+		
+		function getLastData($nevera_idNevera){
+				
+			$cnn = new conexion();//instancia objeto de conexion de base de datos
+			$datos_nevera = new datos_nevera();//creo un objeto del tipo clase usuarios 
+			$datos_nevera->nevera_idNevera=$nevera_idNevera;
+			
+			
+			$sql = "SELECT * FROM usuarios WHERE login='".$usuarios->usuario."'and pass='".$usuarios->contrasena."' ";//se crea la consulta  de la db
+			$fila= $cnn->getRowSQL($sql,"amarey");
+
+			if($fila>0){//si se encontro una fila con el usuario registrado
+				// se validan los datos				
+				if($fila['login']==$usuarios->usuario && $fila['pass']==$usuarios->contrasena){
+					return $fila;
+				}
+			}
+
+		}
+
+	}
+	
+
+
+/*	//utilizando el metodo para usuarios
+	$objeto= new usuariosDatos();
+	$respuesta=$objeto->validar('cali',md5('thebest1'));
+	echo "<pre>";
+	print_r($respuesta);
+	echo "</pre>";
+
+?>
