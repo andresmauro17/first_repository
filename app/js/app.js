@@ -6,7 +6,7 @@ $(document).ready(main);/*cuando el documento este listo se ejecuta la funcion m
 function main(){
 	/*alert(' main');*/
 
-		$.ajax({//objeto ajax
+		$.ajax({//objeto ajaxx
 			url:"php/login/validar_sesion.php",
 			success:function(result){//el success se conecta una ves establesca ajax
 			//alert(result);
