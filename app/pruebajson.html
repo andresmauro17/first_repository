@@ -1,4 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="frameworks/bootstrap3/css/bootstrap.css" rel="stylesheet" /> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
 
+
+ 	$.ajax({
+			type:'GET',
+			url:'datos/nevera/nevera.json',
+			success:function(datos){
+				console.log(datos.length);
+			
+					
+					var datos_nevera=datos[4];
+					$('#ciudad').append(datos_nevera.ciudad);
+					$('#nombre_nevera').append(datos_nevera.nombre_nevera);
+					$('#fecha').append(datos_nevera.fecha);
+					$('#hora').append(datos_nevera.hora);
+					$('#temperatura_entero').append(parseInt(datos_nevera.temperatura));
+					
+			},
+			error:function(){
+				console.log('Algun error ha ocurrido');
+			}
+		});
+		
+
+});
+</script>
+</head>
+<body>
 
 <!-- ::::::::::::::::::::::::::::nevera:::::::::::::::::::::::::::: -->
 <div class="nevera col-xs-12 col-sm-6 col-md-4 col-lg-3">
@@ -38,3 +72,6 @@
 	  </div>
 	</div>
 	</div>
+
+</body>
+</html>
