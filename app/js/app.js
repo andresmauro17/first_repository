@@ -95,7 +95,7 @@ function cargar_neveras(){
 					panel.find('#fecha').append(datos_nevera.fecha);
 					panel.find('#hora').append(datos_nevera.hora);
 					panel.find('#temperatura_entero').append(parseInt(datos_nevera.temperatura));
-					//panel.find('#temperatura_decimal').append(parseInt(datos_nevera.temperatura));*/				
+					panel.find('#temperatura_decimal').append(parseInt(datos_nevera.temperatura));				
 					$('#dashboard_fila').append(panel);
 				}
 			},
